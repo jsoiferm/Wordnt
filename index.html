@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv=" "X-UA-Compatible" content="IE=edge">
+    <meta name=" "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Countdown Timer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex-container">
+        <div>Score: <span id="Score">0</span></div>
+        <div>High Score: <span id="High_Score">0</span></div>
+    </div>
+    <div id="title">
+        Wordn't
+    </div>
+    <div class="Play_button">
+        <button type="button" id="PLAY_BUTTON">Play Game</button>
+    </div>
+    <div class="How_to_Play_button">
+        <button onclick = "window.location.href='HowtoPlay.html';" type="button" id="HOW_TO_PLAY_BUTTON">How to Play</button>
+    </div>
+    <div id="Letter">A</div>
+    <div id="input">
+        <div><input type="text" id="INPUT" title="input space" minlength="3"></div>
+    </div>
+    <div><button type="submit" id="Submit_Button">Submit</button></div>
+    </div>
+    <div class="timer">
+        <div class= "hideMe">
+            <div class="TIMER">
+              <span class="timer__part timer__part--minutes">00</span>
+              <span class="timer__part">:</span>
+              <span class="timer__part timer__part--seconds">00</span>
+            </div>
+        </div>
+    </div>
+    <script src= "js\Main.js" type= "module"></script>
+</body>
+</html>

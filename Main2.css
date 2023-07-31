@@ -1,0 +1,43 @@
+body {
+    background:skyblue;
+    margin: 24px;
+  }
+.title{
+    font-family: 'Chela One', cursive;
+    color: white;
+    font-size: 80px;
+    display: block;
+    margin-top: -30px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Instructions{
+    font-family: 'Chela One', cursive;
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: dashed 5px white;
+    padding: 20px;
+}
+#Back_to_home_button{
+    color: white;
+    background-color:skyblue;
+    border-radius: 10px;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 60px;
+    border-width: 10px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Chela One', cursive;
+}
